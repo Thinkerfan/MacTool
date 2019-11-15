@@ -1,0 +1,276 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Lägg alla överst";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Fönster";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimera";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Fönster";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "Huvudmeny";
+
+/* Class = "NSMenuItem"; title = "BetterZip"; ObjectID = "56"; */
+"56.title" = "BetterZip";
+
+/* Class = "NSMenu"; title = "BetterZip"; ObjectID = "57"; */
+"57.title" = "BetterZip";
+
+/* Class = "NSMenuItem"; title = "About BetterZip"; ObjectID = "58"; */
+"58.title" = "Om BetterZip";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "Öppna…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "Arkiv";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "82"; */
+"82.title" = "Ny";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "Arkiv";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; */
+"103.title" = "Hjälp";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "106"; */
+"106.title" = "Hjälp";
+
+/* Class = "NSMenuItem"; title = "BetterZip Help"; ObjectID = "111"; */
+"111.title" = "BetterZip Hjälp";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "124"; */
+"124.title" = "Öppna tidigare";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "125"; */
+"125.title" = "Öppna tidigare";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "Rensa menyn";
+
+/* Class = "NSMenuItem"; title = "Install Alfred Workflows"; ObjectID = "129"; */
+"129.title" = "Installera Alfred-arbetsflöden";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Tjänster";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Tjänster";
+
+/* Class = "NSMenuItem"; title = "Hide BetterZip"; ObjectID = "134"; */
+"134.title" = "Göm BetterZip";
+
+/* Class = "NSMenuItem"; title = "Quit BetterZip"; ObjectID = "136"; */
+"136.title" = "Avsluta BetterZip";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Göm andra";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Visa alla";
+
+/* Class = "NSMenuItem"; title = "Find Archives in Sidebar"; ObjectID = "154"; */
+"154.title" = "Hitta arkiv i sidofältet";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; */
+"157.title" = "Kopiera";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; */
+"158.title" = "Ångra";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; */
+"160.title" = "Klipp ut";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "Redigera";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "164"; */
+"164.title" = "Radera";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "Redigera";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; */
+"171.title" = "Klistra in";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; */
+"173.title" = "Gör om";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "203"; */
+"203.title" = "Zooma";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "215"; */
+"215.title" = "Visa";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "217"; */
+"217.title" = "Visa";
+
+/* Class = "NSMenuItem"; title = "Show Hidden Files"; ObjectID = "218"; */
+"218.title" = "Visa osynliga filer";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "220"; */
+"220.title" = "Anpassa verktygslisten…";
+
+/* Class = "NSMenuItem"; title = "Transcript"; ObjectID = "238"; */
+"238.title" = "Transkript";
+
+/* Class = "NSMenuItem"; title = "Visit Our Website"; ObjectID = "240"; */
+"240.title" = "Besök vår hemsida";
+
+/* Class = "NSMenuItem"; title = "Get in Touch"; ObjectID = "242"; */
+"242.title" = "Kontakta oss";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "246"; */
+"246.title" = "Zooma ut";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "247"; */
+"247.title" = "Zooma in";
+
+/* Class = "NSMenuItem"; title = "Extract Selected…"; ObjectID = "254"; */
+"254.title" = "Extrahera valda…";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "262"; */
+"262.title" = "Välj alla";
+
+/* Class = "NSMenuItem"; title = "Edit Selected Items"; ObjectID = "276"; */
+"276.title" = "Redigera valda objekt";
+
+/* Class = "NSMenuItem"; title = "Add to Archive…"; ObjectID = "283"; */
+"283.title" = "Lägg till i arkiv…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "304"; */
+"304.title" = "Stäng";
+
+/* Class = "NSMenuItem"; title = "Save"; ObjectID = "305"; */
+"305.title" = "Spara";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "306"; */
+"306.title" = "Spara som…";
+
+/* Class = "NSMenuItem"; title = "Revert"; ObjectID = "307"; */
+"307.title" = "Återgå";
+
+/* Class = "NSMenuItem"; title = "File-Packages are Expandable"; ObjectID = "317"; */
+"317.title" = "Fil-paket är extraherbara";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Toolbar"; ObjectID = "319"; */
+"319.title" = "Visa/Göm vertygslisten";
+
+/* Class = "NSMenuItem"; title = "Extract All…"; ObjectID = "322"; */
+"322.title" = "Extrahera alla…";
+
+/* Class = "NSMenuItem"; title = "Flat List"; ObjectID = "326"; */
+"326.title" = "Platt lista";
+
+/* Class = "NSMenuItem"; title = "Outline View"; ObjectID = "327"; */
+"327.title" = "Konturvy";
+
+/* Class = "NSMenuItem"; title = "Favorites"; ObjectID = "332"; */
+"332.title" = "Favoriter";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "338"; */
+"338.title" = "Byt namn";
+
+/* Class = "NSMenuItem"; title = "New Folder"; ObjectID = "345"; */
+"345.title" = "Ny mapp";
+
+/* Class = "NSMenuItem"; title = "Test Archive Integrity"; ObjectID = "347"; */
+"347.title" = "Testa arkivets fullständighet";
+
+/* Class = "NSMenuItem"; title = "Preview"; ObjectID = "350"; */
+"350.title" = "Förhandsgranska";
+
+/* Class = "NSMenuItem"; title = "View License Agreement"; ObjectID = "353"; */
+"353.title" = "Visa licensavtalet";
+
+/* Class = "NSMenuItem"; title = "Find Items in Archive"; ObjectID = "357"; */
+"357.title" = "Hitta objekt i arkiv";
+
+/* Class = "NSMenuItem"; title = "Drop Bar / Queue"; ObjectID = "368"; */
+"368.title" = "Släpp-listen / Köa";
+
+/* Class = "NSMenuItem"; title = "Save with Preset"; ObjectID = "378"; */
+"378.title" = "Spara med förinställning";
+
+/* Class = "NSMenuItem"; title = "Extract with Preset"; ObjectID = "380"; */
+"380.title" = "Extrahera med förinställning";
+
+/* Class = "NSMenu"; title = "Save with Preset"; ObjectID = "388"; */
+"388.title" = "Spara med förinställning";
+
+/* Class = "NSMenu"; title = "Extract with Preset"; ObjectID = "392"; */
+"392.title" = "Extrahera med förinställning";
+
+/* Class = "NSMenuItem"; title = "Open and Extract with Queue…"; ObjectID = "397"; */
+"397.title" = "Öppna och extrahera med kö…";
+
+/* Class = "NSMenuItem"; title = "Open and Compress with Queue…"; ObjectID = "400"; */
+"400.title" = "Öppna och komprimera med kö…";
+
+/* Class = "NSMenuItem"; title = "Wrap Lines in Preview"; ObjectID = "409"; */
+"409.title" = "Förhandsgranska med radbrytning";
+
+/* Class = "NSMenuItem"; title = "Preview Font"; ObjectID = "415"; */
+"415.title" = "Förhandsgranska typsnitt";
+
+/* Class = "NSMenu"; title = "Preview Font"; ObjectID = "416"; */
+"416.title" = "Förhandsgranska typsnitt";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "417"; */
+"417.title" = "Visa typsnitt";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "422"; */
+"422.title" = "Större";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "423"; */
+"423.title" = "Mindre";
+
+/* Class = "NSMenuItem"; title = "Go"; ObjectID = "2Jl-u9-6ra"; */
+"2Jl-u9-6ra.title" = "Gå";
+
+/* Class = "NSMenuItem"; title = "Quick Look Selected Items"; ObjectID = "JK1-4i-610"; */
+"JK1-4i-610.title" = "Snabbtitt på valda objekt";
+
+/* Class = "NSMenuItem"; title = "Back"; ObjectID = "Li7-Ca-i4R"; */
+"Li7-Ca-i4R.title" = "Bakåt";
+
+/* Class = "NSMenuItem"; title = "Delete with Pattern"; ObjectID = "QZx-8c-obf"; */
+"QZx-8c-obf.title" = "Radera med mönster";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "RyC-7H-3JR"; */
+"RyC-7H-3JR.title" = "Inställningar…";
+
+/* Class = "NSMenuItem"; title = "Direct Mode"; ObjectID = "T8l-7y-XsC"; */
+"T8l-7y-XsC.title" = "Direktläge";
+
+/* Class = "NSMenu"; title = "Go"; ObjectID = "aOt-EZ-ASw"; */
+"aOt-EZ-ASw.title" = "Gå";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "b3k-mI-tHm"; */
+"b3k-mI-tHm.title" = "Mapp";
+
+/* Class = "NSMenuItem"; title = "Unlock Password Manager…"; ObjectID = "n49-8l-XwF"; */
+"n49-8l-XwF.title" = "Lås upp lösenordshanteraren…";
+
+/* Class = "NSMenuItem"; title = "Enclosing Folder"; ObjectID = "ugA-2S-09c"; */
+"ugA-2S-09c.title" = "Omgärdande mapp";
+
+/* Class = "NSMenuItem"; title = "Welcome Screen"; ObjectID = "vAL-Un-3aC"; */
+"vAL-Un-3aC.title" = "Välkomstbild";
+
+/* Class = "NSMenuItem"; title = "Forward"; ObjectID = "wQE-kY-vqP"; */
+"wQE-kY-vqP.title" = "Vidare";
+
+/* Class = "NSMenuItem"; title = "Sort Folders Above Files"; ObjectID = "xYB-5x-wZu"; */
+"xYB-5x-wZu.title" = "Sortera mappar ovanför filer";
+
+/* Class = "NSMenuItem"; title = "Release Notes"; ObjectID = "WUD-mQ-HqJ"; */
+"WUD-mQ-HqJ.title" = "Info om nyheter i den här versionen";
+
+
+

@@ -1,0 +1,276 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "前置全部窗口";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "窗口";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "最小化";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "窗口";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "主菜单";
+
+/* Class = "NSMenuItem"; title = "BetterZip"; ObjectID = "56"; */
+"56.title" = "BetterZip";
+
+/* Class = "NSMenu"; title = "BetterZip"; ObjectID = "57"; */
+"57.title" = "BetterZip";
+
+/* Class = "NSMenuItem"; title = "About BetterZip"; ObjectID = "58"; */
+"58.title" = "关于 BetterZip";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "打开…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "82"; */
+"82.title" = "新建";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "文件";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; */
+"103.title" = "帮助";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "106"; */
+"106.title" = "帮助";
+
+/* Class = "NSMenuItem"; title = "BetterZip Help"; ObjectID = "111"; */
+"111.title" = "BetterZip 帮助";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "124"; */
+"124.title" = "打开最近使用的";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "125"; */
+"125.title" = "打开最近使用的";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "清空菜单";
+
+/* Class = "NSMenuItem"; title = "Install Alfred Workflows"; ObjectID = "129"; */
+"129.title" = "安装 Afred Workflows";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "服务";
+
+/* Class = "NSMenuItem"; title = "Hide BetterZip"; ObjectID = "134"; */
+"134.title" = "隐藏 BetterZip";
+
+/* Class = "NSMenuItem"; title = "Quit BetterZip"; ObjectID = "136"; */
+"136.title" = "退出 BetterZip";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "隐藏其他";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "显示所有";
+
+/* Class = "NSMenuItem"; title = "Find Archives in Sidebar"; ObjectID = "154"; */
+"154.title" = "在边栏中寻找压缩文件";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; */
+"157.title" = "拷贝";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; */
+"158.title" = "还原";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; */
+"160.title" = "剪切";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "164"; */
+"164.title" = "删除";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; */
+"171.title" = "粘贴";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; */
+"173.title" = "重做";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "203"; */
+"203.title" = "缩放";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "215"; */
+"215.title" = "显示";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "217"; */
+"217.title" = "显示";
+
+/* Class = "NSMenuItem"; title = "Show Hidden Files"; ObjectID = "218"; */
+"218.title" = "显示隐藏文件";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "220"; */
+"220.title" = "自定义工具栏…";
+
+/* Class = "NSMenuItem"; title = "Transcript"; ObjectID = "238"; */
+"238.title" = "清单";
+
+/* Class = "NSMenuItem"; title = "Visit Our Website"; ObjectID = "240"; */
+"240.title" = "访问BetterZip官网";
+
+/* Class = "NSMenuItem"; title = "Get in Touch"; ObjectID = "242"; */
+"242.title" = "联系我们";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "246"; */
+"246.title" = "缩小";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "247"; */
+"247.title" = "放大";
+
+/* Class = "NSMenuItem"; title = "Extract Selected…"; ObjectID = "254"; */
+"254.title" = "解压已选文件…";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "262"; */
+"262.title" = "全选";
+
+/* Class = "NSMenuItem"; title = "Edit Selected Items"; ObjectID = "276"; */
+"276.title" = "查看选择的文件";
+
+/* Class = "NSMenuItem"; title = "Add to Archive…"; ObjectID = "283"; */
+"283.title" = "添加到压缩文件…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "304"; */
+"304.title" = "关闭";
+
+/* Class = "NSMenuItem"; title = "Save"; ObjectID = "305"; */
+"305.title" = "保存";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "306"; */
+"306.title" = "另存为…";
+
+/* Class = "NSMenuItem"; title = "Revert"; ObjectID = "307"; */
+"307.title" = "还原";
+
+/* Class = "NSMenuItem"; title = "File-Packages are Expandable"; ObjectID = "317"; */
+"317.title" = "展开文件包";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Toolbar"; ObjectID = "319"; */
+"319.title" = "显示/隐藏工具栏";
+
+/* Class = "NSMenuItem"; title = "Extract All…"; ObjectID = "322"; */
+"322.title" = "全部解压…";
+
+/* Class = "NSMenuItem"; title = "Flat List"; ObjectID = "326"; */
+"326.title" = "平铺列表";
+
+/* Class = "NSMenuItem"; title = "Outline View"; ObjectID = "327"; */
+"327.title" = "大纲视图";
+
+/* Class = "NSMenuItem"; title = "Favorites"; ObjectID = "332"; */
+"332.title" = "收藏夹";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "338"; */
+"338.title" = "重命名";
+
+/* Class = "NSMenuItem"; title = "New Folder"; ObjectID = "345"; */
+"345.title" = "新建文件夹";
+
+/* Class = "NSMenuItem"; title = "Test Archive Integrity"; ObjectID = "347"; */
+"347.title" = "测试";
+
+/* Class = "NSMenuItem"; title = "Preview"; ObjectID = "350"; */
+"350.title" = "预览";
+
+/* Class = "NSMenuItem"; title = "View License Agreement"; ObjectID = "353"; */
+"353.title" = "查看许可协议";
+
+/* Class = "NSMenuItem"; title = "Find Items in Archive"; ObjectID = "357"; */
+"357.title" = "在压缩文件中寻找项目";
+
+/* Class = "NSMenuItem"; title = "Drop Bar / Queue"; ObjectID = "368"; */
+"368.title" = "操作队列";
+
+/* Class = "NSMenuItem"; title = "Save with Preset"; ObjectID = "378"; */
+"378.title" = "使用预置设定存储";
+
+/* Class = "NSMenuItem"; title = "Extract with Preset"; ObjectID = "380"; */
+"380.title" = "使用预设解压";
+
+/* Class = "NSMenu"; title = "Save with Preset"; ObjectID = "388"; */
+"388.title" = "使用预置设定存储";
+
+/* Class = "NSMenu"; title = "Extract with Preset"; ObjectID = "392"; */
+"392.title" = "使用预设解压";
+
+/* Class = "NSMenuItem"; title = "Open and Extract with Queue…"; ObjectID = "397"; */
+"397.title" = "打开并解压缩队列…";
+
+/* Class = "NSMenuItem"; title = "Open and Compress with Queue…"; ObjectID = "400"; */
+"400.title" = "打开并压缩队列…";
+
+/* Class = "NSMenuItem"; title = "Wrap Lines in Preview"; ObjectID = "409"; */
+"409.title" = "在预览中换行";
+
+/* Class = "NSMenuItem"; title = "Preview Font"; ObjectID = "415"; */
+"415.title" = "预览字体";
+
+/* Class = "NSMenu"; title = "Preview Font"; ObjectID = "416"; */
+"416.title" = "预览字体";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "417"; */
+"417.title" = "显示字体";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "422"; */
+"422.title" = "增大";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "423"; */
+"423.title" = "减小";
+
+/* Class = "NSMenuItem"; title = "Go"; ObjectID = "2Jl-u9-6ra"; */
+"2Jl-u9-6ra.title" = "转到";
+
+/* Class = "NSMenuItem"; title = "Quick Look Selected Items"; ObjectID = "JK1-4i-610"; */
+"JK1-4i-610.title" = "快速查看选中项";
+
+/* Class = "NSMenuItem"; title = "Back"; ObjectID = "Li7-Ca-i4R"; */
+"Li7-Ca-i4R.title" = "返回";
+
+/* Class = "NSMenuItem"; title = "Delete with Pattern"; ObjectID = "QZx-8c-obf"; */
+"QZx-8c-obf.title" = "删除指定格式的文件";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "RyC-7H-3JR"; */
+"RyC-7H-3JR.title" = "首选项…";
+
+/* Class = "NSMenuItem"; title = "Direct Mode"; ObjectID = "T8l-7y-XsC"; */
+"T8l-7y-XsC.title" = "立即执行模式";
+
+/* Class = "NSMenu"; title = "Go"; ObjectID = "aOt-EZ-ASw"; */
+"aOt-EZ-ASw.title" = "转到";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "b3k-mI-tHm"; */
+"b3k-mI-tHm.title" = "文件夹";
+
+/* Class = "NSMenuItem"; title = "Unlock Password Manager…"; ObjectID = "n49-8l-XwF"; */
+"n49-8l-XwF.title" = "解锁密码管理器…";
+
+/* Class = "NSMenuItem"; title = "Enclosing Folder"; ObjectID = "ugA-2S-09c"; */
+"ugA-2S-09c.title" = "压缩文件";
+
+/* Class = "NSMenuItem"; title = "Welcome Screen"; ObjectID = "vAL-Un-3aC"; */
+"vAL-Un-3aC.title" = "欢迎窗口";
+
+/* Class = "NSMenuItem"; title = "Forward"; ObjectID = "wQE-kY-vqP"; */
+"wQE-kY-vqP.title" = "前进";
+
+/* Class = "NSMenuItem"; title = "Sort Folders Above Files"; ObjectID = "xYB-5x-wZu"; */
+"xYB-5x-wZu.title" = "文件夹优先排序";
+
+/* Class = "NSMenuItem"; title = "Release Notes"; ObjectID = "WUD-mQ-HqJ"; */
+"WUD-mQ-HqJ.title" = "Release Notes";
+
+
+

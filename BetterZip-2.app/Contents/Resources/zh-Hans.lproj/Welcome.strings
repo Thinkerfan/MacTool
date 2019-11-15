@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Install Alfred workflows"; ObjectID = "8Vg-HV-6iG"; */
+"8Vg-HV-6iG.title" = "安装 Alfred workflows";
+
+/* Class = "NSButtonCell"; title = "Let's Go!"; ObjectID = "AZv-gH-0JZ"; */
+"AZv-gH-0JZ.title" = "开始吧!";
+
+/* Class = "NSButtonCell"; title = "Add services for extraction and compression to the macOS services menu"; ObjectID = "CzZ-Ub-J5X"; */
+"CzZ-Ub-J5X.title" = "将提取和压缩的服务添加到macOS服务菜单";
+
+/* Class = "NSButtonCell"; title = "Tell macOS to open archives in BetterZip"; ObjectID = "bku-O5-RcK"; */
+"bku-O5-RcK.title" = "告诉macOS用BetterZip打开压缩文件";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to BetterZip!"; ObjectID = "ktm-z0-OrQ"; */
+"ktm-z0-OrQ.title" = "欢迎来到BetterZip！";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip is the most powerful archiver for macOS which you can customize in many ways. To get started quickly use a few select options below. \n\nDive into all available settings in the preferences window when you are ready. \n\nChoose Help > BetterZip Help from the menu for more information."; ObjectID = "or3-DA-ngV"; */
+"or3-DA-ngV.title" = "BetterZip是macOS最强大的压缩程序，您可以通过多种方式自定义。使用下面几个选择选项快速开始。准备就绪时请参阅首选项窗口中的所有可用设置。从菜单中选择帮助> BetterZip帮助 以获取更多信息。 ";
+
+/* Class = "NSButtonCell"; title = "Regularly check for updates"; ObjectID = "pAU-Gw-VpU"; */
+"pAU-Gw-VpU.title" = "定期检查更新";
+
+/* Class = "NSButtonCell"; title = "Add a BetterZip button to Finder's toolbar"; ObjectID = "t2Q-rY-XuF"; */
+"t2Q-rY-XuF.title" = "向Finder工具栏添加一个BetterZip按钮";

@@ -1,0 +1,18 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Remove completed and stopped downloads from this list."; ObjectID = "23"; */
+"23.ibShadowedToolTip" = "Remove completed and stopped downloads from this list.";
+
+/* Class = "NSButtonCell"; title = "Clear"; ObjectID = "24"; */
+"24.title" = "Clear";
+
+/* Class = "NSTextFieldCell"; title = "Don't translate"; ObjectID = "AeX-VJ-9Sx"; */
+"AeX-VJ-9Sx.title" = "Don't translate";
+
+/* Class = "NSTextFieldCell"; title = "Don't translate"; ObjectID = "QQe-6v-KhE"; */
+"QQe-6v-KhE.title" = "Don't translate";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cancel the operation"; ObjectID = "nTJ-qt-MAI"; */
+"nTJ-qt-MAI.ibShadowedToolTip" = "Cancel the operation";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "tRx-J3-VVa"; */
+"tRx-J3-VVa.title" = "Text Cell";

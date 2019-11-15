@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>BetterZip</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryFilesAndFolders</string>
+	<key>AMDefaultParameters</key>
+	<dict/>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDAlert</key>
+		<string></string>
+		<key>AMDInput</key>
+		<string>Archive types supported by BetterZip</string>
+		<key>AMDNote</key>
+		<string></string>
+		<key>AMDOptions</key>
+		<string>Choose a preset to use for extraction. Presets can be configured in the BetterZip preferences window.</string>
+		<key>AMDRelatedActions</key>
+		<string></string>
+		<key>AMDRequires</key>
+		<string></string>
+		<key>AMDResult</key>
+		<string>A list of the top level items extracted by the action</string>
+		<key>AMDSummary</key>
+		<string>Extract the input archives with BetterZip using the selected preset.</string>
+		<key>AMDWebsite</key>
+		<string></string>
+	</dict>
+	<key>AMIconName</key>
+	<string>BetterZip</string>
+	<key>AMKeywords</key>
+	<array/>
+	<key>AMName</key>
+	<string>Extract with BetterZip</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.cocoa.path</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>AMWarning</key>
+	<dict>
+		<key>Action</key>
+		<string></string>
+		<key>Level</key>
+		<integer>0</integer>
+	</dict>
+	<key>BuildMachineOSBuild</key>
+	<string>17E202</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Extract with BetterZip Preset</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.macitbetter.Extract-with-BetterZip</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Extract with BetterZip Preset</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.1.3</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>4</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>9E145</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>17E189</string>
+	<key>DTSDKName</key>
+	<string>macosx10.13</string>
+	<key>DTXcode</key>
+	<string>0930</string>
+	<key>DTXcodeBuild</key>
+	<string>9E145</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2017 Robert Rezabek. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>Extract_with_BetterZip_Preset</string>
+</dict>
+</plist>

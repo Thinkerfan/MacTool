@@ -1,0 +1,276 @@
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "5"; */
+"5.title" = "Trazer Todas para a Frente";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "19"; */
+"19.title" = "Janela";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "23"; */
+"23.title" = "Minimizar";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "24"; */
+"24.title" = "Janela";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "BetterZip"; ObjectID = "56"; */
+"56.title" = "BetterZip";
+
+/* Class = "NSMenu"; title = "BetterZip"; ObjectID = "57"; */
+"57.title" = "BetterZip";
+
+/* Class = "NSMenuItem"; title = "About BetterZip"; ObjectID = "58"; */
+"58.title" = "Sobre o BetterZip";
+
+/* Class = "NSMenuItem"; title = "Open…"; ObjectID = "72"; */
+"72.title" = "Abrir…";
+
+/* Class = "NSMenu"; title = "File"; ObjectID = "81"; */
+"81.title" = "Arquivo";
+
+/* Class = "NSMenuItem"; title = "New"; ObjectID = "82"; */
+"82.title" = "Novo";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "83"; */
+"83.title" = "Arquivo";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "103"; */
+"103.title" = "Ajuda";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "106"; */
+"106.title" = "Ajuda";
+
+/* Class = "NSMenuItem"; title = "BetterZip Help"; ObjectID = "111"; */
+"111.title" = "Ajuda do BetterZip";
+
+/* Class = "NSMenuItem"; title = "Open Recent"; ObjectID = "124"; */
+"124.title" = "Abrir Recentes";
+
+/* Class = "NSMenu"; title = "Open Recent"; ObjectID = "125"; */
+"125.title" = "Abrir Recentes";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "Limpar Menu";
+
+/* Class = "NSMenuItem"; title = "Install Alfred Workflows"; ObjectID = "129"; */
+"129.title" = "Instalar Fluxos de Trabalho do Alfred…";
+
+/* Class = "NSMenu"; title = "Services"; ObjectID = "130"; */
+"130.title" = "Serviços";
+
+/* Class = "NSMenuItem"; title = "Services"; ObjectID = "131"; */
+"131.title" = "Serviços";
+
+/* Class = "NSMenuItem"; title = "Hide BetterZip"; ObjectID = "134"; */
+"134.title" = "Ocultar BetterZip";
+
+/* Class = "NSMenuItem"; title = "Quit BetterZip"; ObjectID = "136"; */
+"136.title" = "Encerrar BetterZip";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "145"; */
+"145.title" = "Ocultar Outros";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "150"; */
+"150.title" = "Mostrar Tudo";
+
+/* Class = "NSMenuItem"; title = "Find Archives in Sidebar"; ObjectID = "154"; */
+"154.title" = "Buscar Itens na Barra Lateral";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "157"; */
+"157.title" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "158"; */
+"158.title" = "Desfazer";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "160"; */
+"160.title" = "Cortar";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "163"; */
+"163.title" = "Editar";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "164"; */
+"164.title" = "Apagar";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "169"; */
+"169.title" = "Editar";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "171"; */
+"171.title" = "Colar";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "173"; */
+"173.title" = "Refazer";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "203"; */
+"203.title" = "Ampliar/Reduzir";
+
+/* Class = "NSMenu"; title = "View"; ObjectID = "215"; */
+"215.title" = "Visualizar";
+
+/* Class = "NSMenuItem"; title = "View"; ObjectID = "217"; */
+"217.title" = "Visualizar";
+
+/* Class = "NSMenuItem"; title = "Show Hidden Files"; ObjectID = "218"; */
+"218.title" = "Mostrar Arquivos Ocultos";
+
+/* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "220"; */
+"220.title" = "Personalizar Barra de Ferramentas…";
+
+/* Class = "NSMenuItem"; title = "Transcript"; ObjectID = "238"; */
+"238.title" = "Transcrição";
+
+/* Class = "NSMenuItem"; title = "Visit Our Website"; ObjectID = "240"; */
+"240.title" = "Visitar MacItBetter.com";
+
+/* Class = "NSMenuItem"; title = "Get in Touch"; ObjectID = "242"; */
+"242.title" = "Contatar";
+
+/* Class = "NSMenuItem"; title = "Zoom Out"; ObjectID = "246"; */
+"246.title" = "Reduzir";
+
+/* Class = "NSMenuItem"; title = "Zoom In"; ObjectID = "247"; */
+"247.title" = "Ampliar";
+
+/* Class = "NSMenuItem"; title = "Extract Selected…"; ObjectID = "254"; */
+"254.title" = "Extrair Seleção…";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "262"; */
+"262.title" = "Selecionar Tudo";
+
+/* Class = "NSMenuItem"; title = "Edit Selected Items"; ObjectID = "276"; */
+"276.title" = "Editar Itens Selecionados";
+
+/* Class = "NSMenuItem"; title = "Add to Archive…"; ObjectID = "283"; */
+"283.title" = "Adicionar ao Arquivo Comprimido…";
+
+/* Class = "NSMenuItem"; title = "Close"; ObjectID = "304"; */
+"304.title" = "Fechar";
+
+/* Class = "NSMenuItem"; title = "Save"; ObjectID = "305"; */
+"305.title" = "Salvar";
+
+/* Class = "NSMenuItem"; title = "Save As…"; ObjectID = "306"; */
+"306.title" = "Salvar Como…";
+
+/* Class = "NSMenuItem"; title = "Revert"; ObjectID = "307"; */
+"307.title" = "Reverter";
+
+/* Class = "NSMenuItem"; title = "File-Packages are Expandable"; ObjectID = "317"; */
+"317.title" = "Pacotes São Expansíveis";
+
+/* Class = "NSMenuItem"; title = "Show/Hide Toolbar"; ObjectID = "319"; */
+"319.title" = "Mostrar/Ocultar Barra de Ferramentas";
+
+/* Class = "NSMenuItem"; title = "Extract All…"; ObjectID = "322"; */
+"322.title" = "Extrair Tudo…";
+
+/* Class = "NSMenuItem"; title = "Flat List"; ObjectID = "326"; */
+"326.title" = "Lista Plena";
+
+/* Class = "NSMenuItem"; title = "Outline View"; ObjectID = "327"; */
+"327.title" = "Lista Contida";
+
+/* Class = "NSMenuItem"; title = "Favorites"; ObjectID = "332"; */
+"332.title" = "Favoritos";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "338"; */
+"338.title" = "Renomear";
+
+/* Class = "NSMenuItem"; title = "New Folder"; ObjectID = "345"; */
+"345.title" = "Nova Pasta";
+
+/* Class = "NSMenuItem"; title = "Test Archive Integrity"; ObjectID = "347"; */
+"347.title" = "Testar Integridade do Arquivo Comprimido";
+
+/* Class = "NSMenuItem"; title = "Preview"; ObjectID = "350"; */
+"350.title" = "Pré-visualização";
+
+/* Class = "NSMenuItem"; title = "View License Agreement"; ObjectID = "353"; */
+"353.title" = "Visualizar Contrato de Licença";
+
+/* Class = "NSMenuItem"; title = "Find Items in Archive"; ObjectID = "357"; */
+"357.title" = "Buscar Itens no Arquivo Comprimido";
+
+/* Class = "NSMenuItem"; title = "Drop Bar / Queue"; ObjectID = "368"; */
+"368.title" = "Barra de Operações/Fila";
+
+/* Class = "NSMenuItem"; title = "Save with Preset"; ObjectID = "378"; */
+"378.title" = "Salvar com Pré-Ajuste";
+
+/* Class = "NSMenuItem"; title = "Extract with Preset"; ObjectID = "380"; */
+"380.title" = "Extrair com Pré-Ajuste";
+
+/* Class = "NSMenu"; title = "Save with Preset"; ObjectID = "388"; */
+"388.title" = "Salvar com Pré-Ajuste";
+
+/* Class = "NSMenu"; title = "Extract with Preset"; ObjectID = "392"; */
+"392.title" = "Extrair com Pré-Ajuste";
+
+/* Class = "NSMenuItem"; title = "Open and Extract with Queue…"; ObjectID = "397"; */
+"397.title" = "Abrir e Extrair em Fila…";
+
+/* Class = "NSMenuItem"; title = "Open and Compress with Queue…"; ObjectID = "400"; */
+"400.title" = "Abrir e Comprimir em Fila…";
+
+/* Class = "NSMenuItem"; title = "Wrap Lines in Preview"; ObjectID = "409"; */
+"409.title" = "Ajustar Linhas na Pré-visualização";
+
+/* Class = "NSMenuItem"; title = "Preview Font"; ObjectID = "415"; */
+"415.title" = "Fonte da Pré-visualização";
+
+/* Class = "NSMenu"; title = "Preview Font"; ObjectID = "416"; */
+"416.title" = "Fonte da Pré-visualização";
+
+/* Class = "NSMenuItem"; title = "Show Fonts"; ObjectID = "417"; */
+"417.title" = "Mostrar Fontes";
+
+/* Class = "NSMenuItem"; title = "Bigger"; ObjectID = "422"; */
+"422.title" = "Maior";
+
+/* Class = "NSMenuItem"; title = "Smaller"; ObjectID = "423"; */
+"423.title" = "Menor";
+
+/* Class = "NSMenuItem"; title = "Go"; ObjectID = "2Jl-u9-6ra"; */
+"2Jl-u9-6ra.title" = "Ir";
+
+/* Class = "NSMenuItem"; title = "Quick Look Selected Items"; ObjectID = "JK1-4i-610"; */
+"JK1-4i-610.title" = "Visualização Rápida da Seleção";
+
+/* Class = "NSMenuItem"; title = "Back"; ObjectID = "Li7-Ca-i4R"; */
+"Li7-Ca-i4R.title" = "Voltar";
+
+/* Class = "NSMenuItem"; title = "Delete with Pattern"; ObjectID = "QZx-8c-obf"; */
+"QZx-8c-obf.title" = "Apagar com Padrão";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "RyC-7H-3JR"; */
+"RyC-7H-3JR.title" = "Preferências…";
+
+/* Class = "NSMenuItem"; title = "Direct Mode"; ObjectID = "T8l-7y-XsC"; */
+"T8l-7y-XsC.title" = "Modo Direto";
+
+/* Class = "NSMenu"; title = "Go"; ObjectID = "aOt-EZ-ASw"; */
+"aOt-EZ-ASw.title" = "Ir";
+
+/* Class = "NSMenuItem"; title = "Folder"; ObjectID = "b3k-mI-tHm"; */
+"b3k-mI-tHm.title" = "Pasta";
+
+/* Class = "NSMenuItem"; title = "Unlock Password Manager…"; ObjectID = "n49-8l-XwF"; */
+"n49-8l-XwF.title" = "Desbloquear Gerenciador de Senhas…";
+
+/* Class = "NSMenuItem"; title = "Enclosing Folder"; ObjectID = "ugA-2S-09c"; */
+"ugA-2S-09c.title" = "Pasta Superior";
+
+/* Class = "NSMenuItem"; title = "Welcome Screen"; ObjectID = "vAL-Un-3aC"; */
+"vAL-Un-3aC.title" = "Tela de Boas-vindas";
+
+/* Class = "NSMenuItem"; title = "Forward"; ObjectID = "wQE-kY-vqP"; */
+"wQE-kY-vqP.title" = "Avançar";
+
+/* Class = "NSMenuItem"; title = "Sort Folders Above Files"; ObjectID = "xYB-5x-wZu"; */
+"xYB-5x-wZu.title" = "Pastas Antes de Arquivos";
+
+/* Class = "NSMenuItem"; title = "Release Notes"; ObjectID = "WUD-mQ-HqJ"; */
+"WUD-mQ-HqJ.title" = "Notas da Versão";
+
+
+

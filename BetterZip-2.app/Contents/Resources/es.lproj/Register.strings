@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "Register BetterZip"; ObjectID = "8"; */
+"8.title" = "Registrar BetterZip";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open the online order page in your Web browser."; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Abre la página de pedidos online en tu navegador web.";
+
+/* Class = "NSButtonCell"; title = "Lost your key?"; ObjectID = "138"; */
+"138.title" = "¿Perdiste tu clave?";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip is not yet registered. Your trial period will end in 30 days. You will not be able to use BetterZip after this time."; ObjectID = "140"; */
+"140.title" = "BetterZip aún no está registrado. El período de prueba finalizará en 30 días. Después ya no podrás volver a utilizar BetterZip.";
+
+/* Class = "NSButtonCell"; title = "Buy now"; ObjectID = "141"; */
+"141.title" = "Comprar online";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Copy the key from the e-mail you received. \nIt should be 4 lines of mostly letters and numbers."; ObjectID = "142"; */
+"142.placeholderString" = "Copia la clave recibida en tu e-mail. \nPor lo general deberá contener 4 líneas escritas de letras y números.";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "143"; */
+"143.title" = "Más tarde";
+
+/* Class = "NSTextFieldCell"; title = "License key:"; ObjectID = "144"; */
+"144.title" = "Clave de la licencia:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open the online order page in your Web browser."; ObjectID = "0FK-VE-wpk"; */
+"0FK-VE-wpk.ibShadowedToolTip" = "Abra la página de pedido en línea en su navegador Web.";
+
+/* Class = "NSTabViewItem"; label = "Register"; ObjectID = "G8e-Xx-KQQ"; */
+"G8e-Xx-KQQ.label" = "Registro";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip has detected a Mac App Store license. You can request a “direct license” registration code with your e-mail address.\n\nThis registration code allows you to buy the discounted upgrade to BetterZip 4 for US$ 9.99."; ObjectID = "UrB-iH-aS2"; */
+"UrB-iH-aS2.title" = "BetterZip ha detectado una licencia de Mac App Store. Usted puede solicitar un código de registro “licencia directa” con su dirección de correo electrónico.\n\nEsto permitirá que usted compre la actualización con descuento a BetterZip 4 por US$ 9.99.";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "Xp6-Oz-aed"; */
+"Xp6-Oz-aed.title" = "Más tarde";
+
+/* Class = "NSTabViewItem"; label = "MAS Convert"; ObjectID = "a9U-Bh-x3p"; */
+"a9U-Bh-x3p.label" = "MAS Convert";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "bmZ-yF-vW1"; */
+"bmZ-yF-vW1.title" = "Registro";
+
+/* Class = "NSTextFieldCell"; title = "Mac App Store License Detected"; ObjectID = "g81-Nf-GOk"; */
+"g81-Nf-GOk.title" = "Licencia de Mac App Store detectada";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Your e-mail address"; ObjectID = "kIb-kC-2Vk"; */
+"kIb-kC-2Vk.placeholderString" = "Su dirección de email";

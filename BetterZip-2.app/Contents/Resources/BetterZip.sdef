@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+
+<!-- declare the namespace for using XInclude so we can include the standard suite -->
+<dictionary xmlns:xi="http://www.w3.org/2003/XInclude"  title="BetterZip Terminology">
+
+	<!-- use XInclude to include the standard suite -->
+	<xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+
+
+	<suite name="BetterZip Suite" code="BtrZ" description="BetterZip scripting classes and commands.">
+
+		<enumeration name="preset type" code="PrTy" inline="2"	description="The type of a preset.">
+			<enumerator name="extracting" code="PrEx" description="A preset used for extraction."/>
+			<enumerator name="saving" code="PrSa" description="A preset used for saving archives."/>
+		</enumeration>
+
+		<enumeration name="destination folder" code="dest" inline="2"	description="The destination folder for the archive operation.">
+			<enumerator name="original" code="Orig" description="The same folder as the archive."/>
+			<enumerator name="ask user" code="AskU" hidden="yes" description="Ask the user."/>
+		</enumeration>
+		<enumeration name="receptacle" code="REcE" inline="2"	description="The folder into which the archive should be moved after successful extraction.">
+			<enumerator name="Dont move" code="DOnT" description="Don't move the archive. (Default)"/>
+			<enumerator name="Trash" code="TRsh" description="Move to the trash."/>
+		</enumeration>
+		<enumeration name="create extra folder" code="BZEF" inline="3" description="When to create an extra folder for the extracted items.">
+			<enumerator name="never" code="efNv"/>
+			<enumerator name="smart" code="efOn" description="Only if there is more than one element at the top level. (Default)"/>
+			<enumerator name="always" code="efAl"/>
+		</enumeration>
+
+		<enumeration name="saveable file format" code="savf">
+			<enumerator name="ZIP" code="fZip" description="This is the recommended format for general use and widest compatibility.">
+				<cocoa string-value="public.zip-archive"/>
+			</enumerator>
+		</enumeration>
+
+		<enumeration name="archive format" code="BZAF" inline="8" description="The archive format to use for the new archive.">
+			<enumerator name="zip" code="fZip" description="This is the recommended format for general use and widest compatibility."/>
+			<enumerator name="tar" code="fTar"/>
+			<enumerator name="tgz" code="fTgz"/>
+			<enumerator name="tbz" code="fTbz"/>
+			<enumerator name="txz" code="fTxz"/>
+			<enumerator name="sevenzip" code="f7z "/>
+			<enumerator name="xar" code="fXar"/>
+			<enumerator name="rar" code="fRar" description="This can only be used, if the external rar tool is installed and plugged into BetterZip."/>
+		</enumeration>
+		<enumeration name="encryption method" code="BZEM" inline="4" description="The encryption method to use for the new archive.">
+			<enumerator name="none" code="enNo"/>
+			<enumerator name="weak" code="enWe"/>
+			<enumerator name="strong" code="enSt" description="Very secure AES-256 encryption"/>
+			<enumerator name="strong with header encryption" code="enSH" description="Very secure AES-256 encryption; additionally the files in the archive cannot be listed without the password"/>
+		</enumeration>
+		<enumeration name="compression level" code="BZCL" inline="5" description="The compression level influences the final file size and the time it takes to create the archive.">
+			<enumerator name="uncompressed" code="clNo"/>
+			<enumerator name="fast" code="clFa"/>
+			<enumerator name="normal" code="clNm"/>
+			<enumerator name="best" code="clBe"/>
+			<enumerator name="solid" code="clSo"/>
+		</enumeration>
+		
+		<record-type name="archive options" code="aopt">
+			<property name="destination" code="aoDs" description="The path for the new archive. If only a folder is specified, the filename will be chosen automatically. If the file already exists, an alternative name will be chose automatically." optional="yes">
+				<type type="file"/>
+				<type type="destination folder"/>
+				<cocoa key="filename"/>
+			</property>
+			<property name="format" code="aoFo" type="archive format" description="The format of the new archive.">
+				<cocoa key="format"/>
+			</property>
+			<property name="encryption method" code="asEM" type="encryption method" description="The encryption method to use.">
+				<cocoa key="encryption"/>
+			</property>
+			<property name="password" code="aoPw" type="text" description="The password for the new archive.">
+				<cocoa key="password"/>
+			</property>
+			<property name="compression level" code="asCL" type="compression level" description="The compression level.">
+				<cocoa key="compression"/>
+			</property>
+			<property name="volume size" code="aoVS" type="integer" description="The maximum size of a single archive volume in kilobytes.">
+				<cocoa key="volumeSize"/>
+			</property>
+			<property name="additional parameters" code="aoAP" type="text" description="Additional parameters that should be used for the archive creation.">
+				<cocoa key="additionalParams"/>
+			</property>
+			<property name="comment" code="aoCM" type="text" description="Add this text as comment in the archive (only valid for zip and rar formats).">
+				<cocoa key="comment"/>
+			</property>
+			<property name="use latest date" code="aoLD" type="boolean" description="Set the archive's date to the latest date in the archive.">
+				<cocoa key="setDateToLatest"/>
+			</property>
+			<property name="clean pattern" code="aoCP" type="text" description="Items that match this pattern will no be included in the archive.">
+				<cocoa key="cleanPattern"/>
+			</property>
+			<property name="regex" code="aoCA" type="boolean" description="The specified clean pattern is a regular expression instead of a simple file mask.">
+				<cocoa key="cleanRegex"/>
+			</property>
+			<property name="remove Mac stuff" code="aoRM" type="boolean" description="Remove Mac specific stuff from the archive.">
+				<cocoa key="mode"/>
+			</property>
+			<property name="create individual archives" code="aoIn" type="boolean" description="Each item is put into its own archive.">
+				<cocoa key="individual"/>
+			</property>
+			<property name="contents only" code="aoCO" type="boolean" description="Don't include the single root folder in the archive.">
+				<cocoa key="contentsOnly"/>
+			</property>
+		</record-type>
+		
+		<record-type name="unarchive options" code="uopt">
+			<property name="password" code="aoPw" type="text" description="The password for the archive.">
+				<cocoa key="password"/>
+			</property>
+			<property name="destination" code="aoDs" description="The destination folder into which the files are to be extracted.">
+				<type type="file"/>
+				<type type="destination folder"/>
+				<cocoa key="folder"/>
+			</property>
+			<property name="create extra folder" code="uoEF" type="create extra folder" description="When to create an extra folder for the extracted items.">
+				<cocoa key="noArchiveFolder"/>
+			</property>
+			<property name="clean archive" code="uoCA" type="boolean" description="Clean the extracted files using the settings from the BetterZip preferences.">
+				<cocoa key="clean"/>
+			</property>
+			<property name="trash archive" code="uoTA" type="boolean" description="Move the archive to the trash after successful extraction. (Deprecated, use receptacle: Trash instead.)">
+				<cocoa key="recycleArchive"/>
+			</property>
+			<property name="receptacle" code="uoRe" description="The folder into which the archive should be moved after successful extraction.">
+				<type type="file"/>
+				<type type="receptacle"/>
+				<cocoa key="moveArchiveTo"/>
+			</property>
+		</record-type>
+
+		<record-type name="menu item" code="mItM">
+			<property name="title" code="miTi" type="text" description="The title of the menu item.">
+				<cocoa key="title"/>
+			</property>
+			<property name="tag" code="miTa" type="integer" description="The tag of the menu item.">
+				<cocoa key="tag"/>
+			</property>
+		</record-type>
+
+		<record-type name="saveformat" code="saFo">
+			<property name="title" code="foTi" type="text" description="The localized title(name) of the format.">
+				<cocoa key="title"/>
+			</property>
+			<property name="tag" code="foTa" type="integer" description="The tag of the format.">
+				<cocoa key="tag"/>
+			</property>
+			<property name="encryptions" code="foEM" description="The encryption methods this format supports.">
+				<cocoa key="encryptions"/>
+				<type type="menu item" list="yes" />
+			</property>
+			<property name="compressions" code="foCL" description="The compression levels this format supports.">
+				<cocoa key="compressions"/>
+				<type type="menu item" list="yes" />
+			</property>
+		</record-type>
+		
+		<!-- Queue based commands commands -->
+		<command name="queued unarchive" code="BtrZQUna" description="Extract all items from an archive.">
+			<cocoa class="ScriptingCommandUnarchive"/>
+			<direct-parameter description="The archive(s) to be extracted." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</direct-parameter>
+			<parameter name="with preset" code="prst" type="text" optional="yes" description="The name of the extract preset to use.">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="with options" code="uOpt" optional="yes" description="The settings to use during archive extraction.">
+				<cocoa key="preset"/>
+				<type type="unarchive options"/>
+			</parameter>
+			<parameter name="show ui" code="QuUI" optional="yes" description="Yes, if you want to track the progress in BetterZip's operations queue window.">
+				<type type="boolean"/>
+				<cocoa key="ui"/>
+			</parameter>
+			<result description="The operations id which lets you check the progress.">
+				<type type="integer" list="no" />
+			</result>
+		</command>
+		
+		<command name="unarchive" code="BtrZUnar" description="Extract all items from an archive.">
+			<cocoa class="ScriptingCommandUnarchive"/>
+			<direct-parameter description="The archive(s) to be extracted." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</direct-parameter>
+			<parameter name="with preset" code="prst" type="text" optional="yes" description="The name of the extract preset to use.">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="with options" code="uOpt" optional="yes" description="The settings to use during archive extraction.">
+				<cocoa key="preset"/>
+				<type type="unarchive options"/>
+			</parameter>
+			<result description="A list of top level items extracted from the archive(s).">
+				<type type="file" list="yes" />
+			</result>
+		</command>
+		
+		<command name="queued archive" code="BtrZQArc" description="Create a new archive.">
+			<cocoa class="ScriptingCommandArchive"/>
+			<direct-parameter optional="no" description="The file(s) to put into the new archive.">
+				<cocoa key="files"/>
+				<type type="file"/>
+				<type type="file" list="yes"/>
+			</direct-parameter>
+			<parameter name="with preset" code="prst" type="text" optional="yes" description="The name of the save preset to use.">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="with options" code="aOpt" optional="yes" description="Options for the new archive.">
+				<cocoa key="preset"/>
+				<type type="archive options"/>
+			</parameter>
+			<parameter name="show ui" code="QuUI" optional="yes" description="Yes, if you want to track the progress in BetterZip's operations queue window.">
+				<type type="boolean"/>
+				<cocoa key="ui"/>
+			</parameter>
+			<result description="The operations id which lets you check the progress.">
+				<type type="integer" list="no" />
+			</result>
+		</command>
+		
+		<command name="archive" code="BtrZArch" description="Create a new archive.">
+			<cocoa class="ScriptingCommandArchive"/>
+			<direct-parameter optional="no" description="The file(s) to put into the new archive.">
+				<cocoa key="files"/>
+				<type type="file"/>
+				<type type="file" list="yes"/>
+			</direct-parameter>
+			<parameter name="with preset" code="prst" type="text" optional="yes" description="The name of the save preset to use.">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="with options" code="aOpt" optional="yes" description="Options for the new archive.">
+				<cocoa key="preset"/>
+				<type type="archive options"/>
+			</parameter>
+			<result description="A list of filenames of the created archives.">
+				<type type="file" list="yes" />
+			</result>
+		</command>
+		
+		<command name="queued test" code="BtrZQTes" description="Test the archive and check for errors.">
+			<cocoa class="ScriptingCommandTest"/>
+			<direct-parameter description="The archive(s) to test." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</direct-parameter>
+			<parameter name="with password" code="Pswd" type="text" optional="yes" description="The archive password.">
+				<cocoa key="password"/>
+			</parameter>
+			<parameter name="show ui" code="QuUI" optional="yes" description="Yes, if you want to track the progress in BetterZip's operations queue window.">
+				<type type="boolean"/>
+				<cocoa key="ui"/>
+			</parameter>
+			<result description="The operations id which lets you check the progress.">
+				<type type="integer" list="no" />
+			</result>
+		</command>
+
+		<command name="test" code="BtrZTest" description="Test the archive and check for errors.">
+			<cocoa class="ScriptingCommandTest"/>
+			<direct-parameter description="The archive(s) to test." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</direct-parameter>
+			<parameter name="with password" code="Pswd" type="text" optional="yes" description="The archive password.">
+				<cocoa key="password"/>
+			</parameter>
+			<result description="A list of error codes for the tested archives (0 means all okay).">
+				<type type="integer" list="yes" />
+			</result>
+		</command>
+
+		<command name="repair" code="BtrZRepr" description="Try to repair rar archives. (Other formats don't support repairing.)">
+			<cocoa class="ScriptingCommandRepair"/>
+			<direct-parameter description="The rar archive(s) to repair." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</direct-parameter>
+			<parameter name="with password" code="Pswd" type="text" optional="yes" description="The archive password.">
+				<cocoa key="password"/>
+			</parameter>
+		</command>
+
+		<command name="list" code="BtrZList" description="List the contents of an archive.">
+			<cocoa class="ScriptingCommandList"/>
+			<direct-parameter description="The archive whose contents should be listed." optional="no">
+				<type type="file"/>
+			</direct-parameter>
+			<parameter name="with password" code="Pswd" type="text" optional="yes" description="The archive password.">
+				<cocoa key="password"/>
+			</parameter>
+			<result description="The contents of the archive.">
+				<type type="text" list="yes" />
+			</result>
+		</command>
+
+		<command name="progress" code="BtrZProg" description="Check the progress of a previous archive, unarchive, or test command.">
+			<cocoa class="ScriptingCommandProgress"/>
+			<direct-parameter description="The ID of a previous command whose progress you wish to query." optional="no">
+				<type type="integer"/>
+			</direct-parameter>
+			<result description="The progress in percent for the operation. 0..100, 100 meaning the operation has been completed (or cancelled).">
+				<type type="integer" list="no" />
+			</result>
+		</command>
+
+		<command name="output" code="BtrZOutp" description="Get the output of a previous archive (the created archvies), unarchive (the extracted files), or test command.">
+			<cocoa class="ScriptingCommandOutput"/>
+			<direct-parameter description="The ID of a previous command whose progress you wish to query." optional="no">
+				<type type="integer"/>
+			</direct-parameter>
+			<result description="For an archive operation this is a list of the created archives. For an unarchive operation this is a list of the extracted items (only the top level). For a test operation, this is a list of unsuccessfully tested archives.">
+				<type type="file" list="yes" />
+			</result>
+		</command>
+
+
+		<!-- Document based commands -->
+		<command name="add" code="BtrZAddI" description="Add files and folders to an archive.">
+			<direct-parameter type="document" description="The archive." optional="yes" />
+			<parameter name="items" code="itmS" description="The files and folders to add to the archive." optional="no">
+				<type type="file"/>
+				<type type="file" list="yes" />
+			</parameter>
+			<parameter name="into" code="parN" type="text" optional="yes" description="The parent item.">
+				<cocoa key="parent"/>
+			</parameter>
+		</command>
+
+		<command name="remove" code="BtrZRemI" description="Remove a file or folder from an archive.">
+			<direct-parameter type="document" description="The archive." optional="yes" />
+			<parameter name="name" code="namE" type="text" description="The file or folder to be removed from the archive." optional="no" />
+		</command>
+
+		<command name="new folder" code="BtrZNewF" description="Add an empty folder to an archive.">
+			<direct-parameter type="document" description="The archive." optional="yes" />
+			<parameter name="name" code="namE" type="text" description="The files and folders to add to the archive." optional="no" />
+		</command>
+
+		<command name="save" code="coresave" description="Save a document.">
+			<access-group identifier="*"/>
+			<direct-parameter type="specifier" requires-access="r" description="The document(s) or window(s) to save."/>
+			<parameter name="with preset" code="prst" type="text" optional="yes" description="The name of the save preset to use.">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="with options" code="aOpt" optional="yes" description="Options for the new archive.">
+				<cocoa key="preset"/>
+				<type type="archive options"/>
+			</parameter>
+		</command>
+		
+
+		<!-- Password manager commands -->
+		<command name="remember" code="BtrZAddP" description="Add the password to the BetterZip password manager.">
+			<direct-parameter type="passman" code="pswd" description="The BetterZip password manager." hidden="yes" />
+			<parameter name="password" code="pswD" type="text" description="The password to add to the password manager." optional="no" />
+		</command>
+		<command name="forget" code="BtrZRemP" description="Remove the password from the BetterZip password manager.">
+			<direct-parameter type="passman" code="pswd" description="The BetterZip password manager." hidden="yes" />
+			<parameter name="password" code="pswD" type="text" description="The password to remove from the password manager." optional="no" />
+		</command>
+		<command name="list passwords" code="BtrZLstP" description="List all passwords in the BetterZip password manager.">
+			<direct-parameter type="passman" code="pswd" description="The BetterZip password manager." hidden="yes" />
+			<parameter name="with master password" code="mstP" type="text" optional="no" description="The master password to unlock the password manager." />
+			<result description="A list of all passwords in the BetterZip password manager.">
+				<type type="text" list="yes" />
+			</result>
+		</command>
+
+
+		<!-- Preset management commands -->
+		<command name="add preset" code="BtrZAdPr" description="Add the preset.">
+			<parameter name="with name" code="prNa" type="text" description="The new preset's name." optional="no">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="for" code="prTy" type="preset type" description="The preset's type.">
+				<cocoa key="presetType"/>
+			</parameter>
+			<parameter name="with options" code="prOp" optional="no" description="Options for the new archive.">
+				<cocoa key="preset"/>
+				<type type="archive options"/>
+			</parameter>
+		</command>
+		<command name="remove preset" code="BtrZRePr" description="Remove the preset.">
+			<parameter name="with name" code="prNa" type="text" description="The new preset's name." optional="no">
+				<cocoa key="presetName"/>
+			</parameter>
+			<parameter name="for" code="prTy" type="preset type" description="The preset's type.">
+				<cocoa key="presetType"/>
+			</parameter>
+		</command>
+		<command name="list presets" code="BtrZLsPr" description="List all presets.">
+			<parameter name="for" code="prTy" type="preset type" description="The preset's type.">
+				<cocoa key="presetType"/>
+			</parameter>
+			<result description="A list of all presets for a given preset type.">
+				<type type="text" list="yes" />
+			</result>
+		</command>
+		<command name="get save preset" code="BtrZGSPr" description="Get a named save preset.">
+			<parameter name="with name" code="prNa" type="text" description="The save preset's name." optional="no">
+				<cocoa key="presetName"/>
+			</parameter>
+			<result description="The save preset with given name.">
+				<type type="archive options" />
+			</result>
+		</command>
+		<command name="get extraction preset" code="BtrZGEPr" description="Get a specific extraction preset.">
+			<parameter name="with name" code="prNa" type="text" description="The extraction preset's name." optional="no">
+				<cocoa key="presetName"/>
+			</parameter>
+			<result description="The extraction preset with given name.">
+				<type type="unarchive options" />
+			</result>
+		</command>
+
+		<!-- List the formats that BetterZip can save -->
+		<command name="list formats" code="BtrZLsFo" description="List all save formats.">
+			<result description="A list of all formats including name, tag, supported compression factors, and encryption methods.">
+				<type type="saveformat" list="yes" />
+			</result>
+		</command>
+
+
+		<!-- Classes -->
+		<class-extension description="BetterZip's top level scripting object." extends="application">
+		<!--class name="application" code="capp" description="The BetterZip application class." inherits="application"-->
+			<cocoa class="NSApplication"/>
+			<property name="queueWindowVisible" code="iOQv" type="boolean" access="rw" description="Show/hide the operations queue window."/>
+			<property name="transcriptWindowVisible" code="iTrv" type="boolean" access="rw" description="Show/hide the transcript window."/>
+			<property name="password manager" code="pwdM" type="passman" access="r" description="Get the BetterZip password manager.">
+				<cocoa key="passwordManager"/>
+			</property>
+			<!-- Preset management commands -->
+			<responds-to command="add preset">
+				<cocoa method="handleAddPresetScriptCommand:"/>
+			</responds-to>
+			<responds-to command="remove preset">
+				<cocoa method="handleRemovePresetScriptCommand:"/>
+			</responds-to>
+			<responds-to command="list presets">
+				<cocoa method="handleListPresetsScriptCommand:"/>
+			</responds-to>
+			<responds-to command="get save preset">
+				<cocoa method="handleGetSavePresetScriptCommand:"/>
+			</responds-to>
+			<responds-to command="get extraction preset">
+				<cocoa method="handleGetExtractPresetScriptCommand:"/>
+			</responds-to>
+			<responds-to command="list formats">
+				<cocoa method="handleListFormatsScriptCommand:"/>
+			</responds-to>
+		</class-extension>
+
+		<class name="document" code="docu" description="A BetterZip document." inherits="document">
+			<cocoa class="ZipDocument"/>
+			<property name="archive items" code="aitm" type="text" list="yes" description="A list of files and folders in the archive.">
+				<cocoa key="archiveItems"/> 
+			</property>
+			<property name="direct mode" code="dirM" type="boolean" access="rw" description="Set the document's direct mode.">
+				<cocoa key="directMode"/>
+			</property>
+			<property name="comment" code="aCmT" type="text" access="rw" description="The archive's comment.">
+				<cocoa key="archiveComment"/>
+			</property>
+			<responds-to command="add">
+				<cocoa method="handleAddScriptCommand:"/>
+			</responds-to>
+			<responds-to command="new folder">
+				<cocoa method="handleNewFolderScriptCommand:"/>
+			</responds-to>
+			<responds-to command="remove">
+				<cocoa method="handleRemoveScriptCommand:"/>
+			</responds-to>
+			<responds-to command="save">
+				<cocoa method="handleSaveScriptCommand:"/>
+			</responds-to>
+		</class>
+
+		<class name="passman" code="pSwD" description="The BetterZip password manager.">
+			<cocoa class="Keychain"/>
+			<responds-to command="remember">
+				<cocoa method="handleAddPasswordScriptCommand:"/>
+			</responds-to>
+			<responds-to command="forget">
+				<cocoa method="handleRemovePasswordScriptCommand:"/>
+			</responds-to>
+			<responds-to command="list passwords">
+				<cocoa method="handleListPasswordsScriptCommand:"/>
+			</responds-to>
+		</class>
+
+	</suite>
+</dictionary>

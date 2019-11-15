@@ -1,0 +1,48 @@
+
+/* Class = "NSWindow"; title = "Register BetterZip"; ObjectID = "8"; */
+"8.title" = "BetterZip を登録";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open the online order page in your Web browser."; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Web ブラウザでオンラインの注文ページを開きます。";
+
+/* Class = "NSButtonCell"; title = "Lost your key?"; ObjectID = "138"; */
+"138.title" = "キーを紛失?";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip is not yet registered. Your trial period will end in 30 days. You will not be able to use BetterZip after this time."; ObjectID = "140"; */
+"140.title" = "BetterZip は未だ登録されていません。試用期間は 30 日間です。それを過ぎると BetterZip は使えなくなります。";
+
+/* Class = "NSButtonCell"; title = "Buy now"; ObjectID = "141"; */
+"141.title" = "オンラインで購入";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Copy the key from the e-mail you received. \nIt should be 4 lines of mostly letters and numbers."; ObjectID = "142"; */
+"142.placeholderString" = "受け取ったメールからキーをコピーして下さい。\nキーの大部分は英数字で、4行あります。";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "143"; */
+"143.title" = "後で";
+
+/* Class = "NSTextFieldCell"; title = "License key:"; ObjectID = "144"; */
+"144.title" = "ライセンスキー:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open the online order page in your Web browser."; ObjectID = "0FK-VE-wpk"; */
+"0FK-VE-wpk.ibShadowedToolTip" = "ウェブブラウザでオンライン注文ページを開く";
+
+/* Class = "NSTabViewItem"; label = "Register"; ObjectID = "G8e-Xx-KQQ"; */
+"G8e-Xx-KQQ.label" = "登録";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip has detected a Mac App Store license. You can request a “direct license” registration code with your e-mail address.\n\nThis registration code allows you to buy the discounted upgrade to BetterZip 4 for US$ 9.99."; ObjectID = "UrB-iH-aS2"; */
+"UrB-iH-aS2.title" = "BetterZip は、Mac App Store ライセンスを検出しました。メールアドレスを使用する「ダイレクトライセンス」登録コードを請求できます。\n\nこの登録コードを使って、BetterZip 4 を $9.99 のアップグレード価格でお買い求め頂けます。";
+
+/* Class = "NSButtonCell"; title = "Later"; ObjectID = "Xp6-Oz-aed"; */
+"Xp6-Oz-aed.title" = "後で";
+
+/* Class = "NSTabViewItem"; label = "MAS Convert"; ObjectID = "a9U-Bh-x3p"; */
+"a9U-Bh-x3p.label" = "MAS Convert";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "bmZ-yF-vW1"; */
+"bmZ-yF-vW1.title" = "登録";
+
+/* Class = "NSTextFieldCell"; title = "Mac App Store License Detected"; ObjectID = "g81-Nf-GOk"; */
+"g81-Nf-GOk.title" = "検出された Mac App Store ライセンス";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Your e-mail address"; ObjectID = "kIb-kC-2Vk"; */
+"kIb-kC-2Vk.placeholderString" = "メールアドレス";

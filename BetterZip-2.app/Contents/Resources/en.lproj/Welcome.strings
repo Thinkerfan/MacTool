@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "Install Alfred workflows"; ObjectID = "8Vg-HV-6iG"; */
+"8Vg-HV-6iG.title" = "Install Alfred workflows";
+
+/* Class = "NSButtonCell"; title = "Let's Go!"; ObjectID = "AZv-gH-0JZ"; */
+"AZv-gH-0JZ.title" = "Let's Go!";
+
+/* Class = "NSButtonCell"; title = "Add services for extraction and compression to the macOS services menu"; ObjectID = "CzZ-Ub-J5X"; */
+"CzZ-Ub-J5X.title" = "Add services for extraction and compression to the macOS services menu";
+
+/* Class = "NSButtonCell"; title = "Tell macOS to open archives in BetterZip"; ObjectID = "bku-O5-RcK"; */
+"bku-O5-RcK.title" = "Tell macOS to open archives in BetterZip";
+
+/* Class = "NSTextFieldCell"; title = "Welcome to BetterZip!"; ObjectID = "ktm-z0-OrQ"; */
+"ktm-z0-OrQ.title" = "Welcome to BetterZip!";
+
+/* Class = "NSTextFieldCell"; title = "BetterZip is the most powerful archiver for macOS which you can customize in many ways. To get started quickly use a few select options below. \n\nDive into all available settings in the preferences window when you are ready. \n\nChoose Help > BetterZip Help from the menu for more information."; ObjectID = "or3-DA-ngV"; */
+"or3-DA-ngV.title" = "BetterZip is the most powerful archiver for macOS which you can customize in many ways. To get started quickly use a few select options below. \n\nDive into all available settings in the preferences window when you are ready. \n\nChoose Help > BetterZip Help from the menu for more information.";
+
+/* Class = "NSButtonCell"; title = "Regularly check for updates"; ObjectID = "pAU-Gw-VpU"; */
+"pAU-Gw-VpU.title" = "Regularly check for updates";
+
+/* Class = "NSButtonCell"; title = "Add a BetterZip button to Finder's toolbar"; ObjectID = "t2Q-rY-XuF"; */
+"t2Q-rY-XuF.title" = "Add a BetterZip button to Finder's toolbar";
